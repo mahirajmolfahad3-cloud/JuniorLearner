@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Not rickroll</title>
-    </head>
-    <body>
-        <button>
-            Don't click me!
-        </button>
-    </body>
+<head>
+    <title>Not rickroll</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            align-items: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        button {
+            background-color: rgb(255, 94, 0);
+            color: white;
+            font-size: 24px;
+            padding: 20px 40px;
+            border: none;
+            cursor: pointer;
+            margin-top: 100px;
+        }
+        button:hover {
+            background-color: rgb(255, 60, 0);
+        }
+        form {
+            margin-top: 80px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input {
+            font-size: 18px;
+            padding: 10px;
+            width: 250px;
+        }
+        h1 {
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>It's Definitely Is Not Malware !!</h1>
+    <form>
+        <input type="text" placeholder="Full Name" name="name">
+        <input type="password" placeholder="Password" name="password">
+        <input type="text" placeholder="Card Number" name="card number">
+        <input type="text" placeholder="Security Code" name="security code">
+        <input type="submit">
+    </form>
+    <button onclick="location.href='https://youtu.be/hvL1339luv0?si=7fRaTUcq2OVzXWFK'">
+        Don't click
+    </button>
+</body>
 </html>
